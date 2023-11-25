@@ -1,0 +1,807 @@
+/*                                                        !bpo container Start                                                                                */
+
+/* Extra small (mobile) */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .bpo-container {
+        max-width: 100%;
+        /* padding: 1rem; */
+        margin: 0 auto;
+    }
+
+    .section-margin {
+        margin-top: 20px !important;
+    }
+
+    .section-lg-margin {
+        margin-top: 11px !important;
+    }
+}
+
+/* Small (mobile landscape) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .bpo-container {
+        max-width: 100%;
+        /* padding: 1rem; */
+        margin: 0 auto;
+    }
+}
+
+/* Medium (tablet) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .bpo-container {
+        max-width: 720px;
+        /* padding: 1rem; */
+        margin: 0 auto;
+    }
+}
+
+/* Large (desktop) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .bpo-container {
+        max-width: 940px;
+        /* padding: 1rem; */
+        margin: 0 auto;
+
+    }
+}
+
+/* Extra large (desktop) */
+@media (min-width: 1200px) {
+
+    .bpo-container {
+        max-width: 1540px;
+        width: 100%;
+        /* padding: 1rem; */
+        padding: 0px 63px;
+        margin: 0 auto;
+
+
+    }
+}
+
+/*                                                        !bpo container End                                                                               */
+
+/*                                                        ! Main MEdia Query Start                                                                           */
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* ?Index Page Start */
+    .logo {
+        padding: 1vh 5vw;
+    }
+
+    .sovorun-global-card__content b {
+        font-size: 16px !important;
+    }
+
+    .bpo-hero-section {
+        padding: 120px 0px;
+        height: 700px;
+    }
+
+    .bpo-hero-section_content {
+        padding: 15px;
+        margin-bottom: 80px
+    }
+
+    ;
+    /* !Business Content Start!  */
+
+    .bpo-main {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .bpo-content1 {
+        height: 260px;
+    }
+
+    .bpo-content2 {
+        margin: 22px;
+    }
+
+    /* !Business Content End!  */
+
+    /* !Business Features Start!  */
+
+
+    .business-features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+        gap: 10px;
+
+    }
+
+    .business-features__content {
+        padding: 16px;
+        text-align: start;
+    }
+
+    .business-features__sentence {
+        margin: 0px 5px;
+    }
+
+    /* !Business Features End!  */
+
+    /* !About us Start */
+    .bpo-about {
+        justify-content: center;
+        height: 494px;
+    }
+
+    .bpo-about__content {
+        margin: 12px;
+
+    }
+
+    /* !About us End */
+    /* !faq Start */
+
+    .bpo-faq-accordian {
+        padding: 54px 0px;
+
+    }
+
+    .bpo-faq-accordian__heading {
+        padding-top: 23px !important;
+        padding-left: 14px;
+    }
+
+    .bpo-faq-accordian__heading p {
+
+
+        padding-right: 33px;
+    }
+
+    /* !faq End */
+
+    /* .service-global-card {
+        height: 900px;
+
+    } */
+
+    /* index page service onhover start */
+    .service-global-card__heading {
+        flex: 0 0 calc(100% - 20px);
+        max-width: calc(100% - 20px);
+    }
+
+    /* .service-global-card__heading h5 {
+        font-size: 14px;
+        height: 62px;
+    } */
+
+
+
+    /* index page service onhover end */
+
+    /* index industries start */
+    .bpo-industries__sub-card {
+        align-items: stretch;
+    }
+
+    /* index industries end */
+    /* ?Index Page End */
+
+    /* ?About html pages Start */
+    .about-main {
+        flex-wrap: wrap;
+    }
+
+    .about-main__heading {
+        height: 210px
+    }
+
+    .about-main__content {
+        margin: 18px
+    }
+
+    .about-teams {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .about-mission__heading {
+        padding: 27px;
+    }
+
+    .about-client {
+        height: 500px;
+        padding: 17px;
+    }
+
+    .about-client__images {
+        text-align: center;
+    }
+
+    .about-client__images img {
+        padding: 10px 20px;
+        text-align: center;
+        width: 100px;
+
+    }
+
+    .about-team-btn {
+
+        padding-top: 20px;
+
+    }
+
+    .about-team-btn a {
+        margin-left: 20px;
+    }
+
+    /*? !About html pages End */
+
+    /* Newsletter Start  */
+
+    .call-to-action {
+        grid-template-columns: auto 0;
+        height: 258px;
+
+        padding: 10px 0;
+        z-index: 10;
+        position: relative;
+    }
+
+    .call-to-action #call-to-action__email {
+        width: 220px;
+        height: 40px;
+    }
+
+    .call-to-action button {
+        height: 40px;
+        padding: 8.5px 10px;
+    }
+
+    .call-to-action__heading {
+        grid-column: 1/3;
+        padding: 0 10px;
+    }
+
+    .call-to-action .call-to-action__heading {
+        height: 129px;
+        padding: 0px 13px;
+    }
+
+    /* Newsletter End */
+
+    /* ?service index page start*/
+    .service-page-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-page-card {
+        margin: 10px;
+    }
+
+    /* ?service index page end*/
+
+    /* ?service l2 index page start */
+    .service-l1-main-details {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 10px;
+    }
+
+    /* service l1 contact page start */
+    .service-l1-contact_heading {
+        padding: 18px;
+        height: 215px;
+    }
+
+    .service-l1-contact_heading h4 {
+        font-size: 18px !important;
+    }
+
+    /* service l1 contact page End */
+    /* ?service l2 index page end */
+    /* ?Industries page Start */
+
+
+    .industries__sub-card {
+        align-items: stretch;
+        margin: 0px 23px;
+    }
+
+    /* ?Industries page End */
+    /* ?blog page start */
+    .blog-heading {
+        gap: 9px;
+    }
+
+    .blog-heading img {
+        width: 20px;
+        height: 19px;
+
+    }
+
+    .service-card-images {
+        width: 100%;
+        height: 170px;
+    }
+
+    /* ?blog page End */
+
+    /* ?carrer page Start */
+    .career-main {
+
+        grid-template-columns: 1fr;
+
+        margin: 0px 10px;
+
+    }
+
+    /* ?carrer page End */
+
+    /* ?carere join us page start */
+
+    .careers-detail__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px 5px;
+
+    }
+
+    .careers-detail__careers-form label {
+
+        width: 165px;
+    }
+
+
+    /* ?carere join us page end */
+
+    /* ?contact page start */
+    .contact-page-map {
+        margin: 20px 10px !important;
+
+    }
+
+    .error-message {
+        text-align: start !important;
+    }
+
+    /* ?contact page end */
+}
+
+
+
+
+/* Small (mobile landscape) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+    /* index page service onhover start */
+    .service-global-card__heading {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    /* index page service onhover end */
+
+    /* !About us Start */
+    .bpo-about {
+        justify-content: center;
+    }
+
+    .bpo-about__content {
+        margin: 20px;
+    }
+
+    /* !About us End */
+
+    /* ?About html pages Start */
+    .about-main__heading {
+        height: 210px
+    }
+
+    .about-main {
+        flex-wrap: wrap;
+    }
+
+    .about-main__content {
+        margin: 18px
+    }
+
+    .about-teams {
+        flex-wrap: wrap;
+    }
+
+
+
+    /*? !About html pages End */
+
+    /* newsletter start */
+    .call-to-action .call-to-action__heading {
+        height: 200px;
+    }
+
+    .call-to-action {
+        grid-template-columns: auto 0;
+        height: 250px;
+    }
+
+    .call-to-action #call-to-action__email {
+        width: 400px;
+        height: 50px;
+    }
+
+    .call-to-action button {
+        height: 50px;
+        padding: 12px 30px;
+    }
+
+    .call-to-action__heading {
+        grid-column: 1/3;
+    }
+
+    /* newslter end */
+
+    /* ?service index page start*/
+
+    .service-page-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ?service index page End*/
+
+
+    /* ?carrer page Start */
+    .career-main {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        margin: 0px 15px;
+
+    }
+
+    /* ?carrer page End */
+}
+
+/* Medium (tablet) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo {
+        padding: 1vh 5vw;
+    }
+
+    /* index page start */
+    .bpo-hero-section {
+        padding: 55px;
+        height: 530px;
+
+    }
+
+
+    .service-global-card {
+        height: 400px;
+    }
+
+    .service-global-card__heading {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    /* .service-global-card__heading h5{
+        font-size: 18px;
+        height: 66px;
+    } */
+
+    /* index page end */
+
+    /* !About us Start */
+    .bpo-about__content {
+        text-align: left;
+        margin: 0px 20px;
+    }
+
+    /* !About us End */
+
+    /* client Start */
+
+    .about-client__images img {
+        padding: 10px 20px;
+        text-align: center;
+        width: 100px;
+
+    }
+
+    .about-team-btn {
+
+        padding-top: 30px;
+
+    }
+
+    .about-team-btn a {
+        margin-left: 1px;
+    }
+
+    /* client end */
+    /* newslter start */
+    .call-to-action .call-to-action__heading {
+        height: 200px
+    }
+
+    ;
+
+    .call-to-action {
+        grid-template-columns: auto 0;
+        height: 250px;
+    }
+
+    .call-to-action #call-to-action__email {
+        width: 400px;
+        height: 50px;
+    }
+
+    .call-to-action button {
+        height: 50px;
+        padding: 12px 30px;
+    }
+
+    .call-to-action__heading {
+        grid-column: 1/3;
+    }
+
+    /* newslter end */
+
+    .service-page-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* blog page card start */
+
+    .blog-heading {
+        gap: 4px;
+
+    }
+
+    .blog-heading img {
+        width: 19px;
+        height: 20px;
+    }
+
+    .blog-detail-right__card {
+        padding: 9px;
+    }
+
+
+    /* blog page card end */
+
+    /* blogdetail start */
+
+    .blog-detail-right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .blog-detail-right h2 {
+        grid-column: 1/3;
+    }
+
+    .blog-detail {
+        grid-template-columns: 1fr;
+
+    }
+
+    /* blog detail end */
+    /* carerer page join us start */
+    .careers-detail__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px 5px;
+        /* carerer page join us end */
+    }
+
+    .error-message {
+        text-align: center !important;
+    }
+
+}
+
+/* Large (desktop) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* index page start */
+
+    .logo h1 {
+        width: 14rem
+    }
+
+    .login-button {
+        height: 95px;
+        width: 114px;
+    }
+
+
+    .login-button {
+        margin-left: 0px;
+    }
+
+    .bpo-hero-section {
+        padding: 55px;
+        height: 530px;
+
+    }
+
+
+    /* index page service onhover start */
+
+    .service-global-card {
+        height: 450px;
+    }
+
+    .service-global-card__heading {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    /* .service-global-card__heading h5 {
+        height: 73px;
+        font-size: 20px;
+    } */
+
+    /* index page service onhover end */
+
+    /* index page end */
+    /* !About us Start */
+    .bpo-about__content {
+        text-align: left;
+        margin: 0px 40px;
+    }
+
+    /* !About us End */
+    /* client Start */
+    .about-client {
+        align-items: start;
+    }
+
+    .about-client__images {
+        padding: 20px 0px;
+
+    }
+
+    .about-client__images img {
+        padding: 10px 29px;
+        text-align: center;
+        width: 120px;
+
+    }
+
+    .about-team-btn {
+
+        padding-top: 30px;
+
+    }
+
+    .about-team-btn a {
+        margin-left: 1px;
+    }
+
+    /* client end */
+    /* ?Industries page Start */
+
+
+    .industries__sub-card img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* blog page card start */
+
+    .blog-heading {
+        gap: 0px;
+
+    }
+
+    .blog-heading img {
+        width: 19px;
+        height: 20px;
+    }
+
+    .blog-detail-right__card {
+        padding: 9px;
+    }
+
+    /* blog page card end */
+
+    .error-message {
+        text-align: start !important;
+    }
+
+}
+
+/* ?Industries page End */
+
+
+
+/* Extra large (desktop) */
+@media (min-width: 1200px) {
+
+    /* index page service onhover start */
+    .service-global-card__heading {
+        flex: 0 0 calc(33.33% - 20px);
+        max-width: calc(33.33% - 20px);
+    }
+
+    /* index page service onhover end */
+}
+
+
+/* different media query start */
+
+/* industries index page start */
+@media (max-width: 768px) {
+    .bpo-industries {
+        height: auto;
+        padding: 20px;
+        text-align: start;
+    }
+
+    .bpo-industries__bpo-industries__sub-card {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .bpo-industries__sub-card {
+        padding: 0px, 10px;
+    }
+
+    .bpo-industries__sub-card p,
+    .bpo-industries__sub-card h6 {
+        padding: 0px, 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bpo-industries {
+        height: 1255px;
+
+    }
+
+}
+
+/* industries index page end */
+
+/* different media query end */
+
+
+/* extra media screen query */
+
+@media (min-width: 573px) and (max-width: 767px) {
+    .bpo-faq-accordian__heading{
+        padding-top: 5px;
+    }
+    .bpo-faq-accordian {
+        padding: 50px 13px;
+    }
+
+    .call-to-action {
+        align-items: stretch;
+        height: 298px;
+    }
+
+    .footer {
+        height: auto !important;
+    }
+
+    .footer-main {
+        padding: 20px;
+    }
+
+    .footer-line {
+        gap: 25%;
+    }
+}

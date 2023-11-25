@@ -1,0 +1,68 @@
+<!-- !navbar Start -->
+<nav class="navbar">
+    <div class="logo">
+        <!-- <img src="assets/images/log.jpg" alt="Logo Image" width="100px"> -->
+        <a href="/">
+            <p>BPOSTARS.COM</p>
+        </a>
+    </div>
+    <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <ul class="nav-links">
+        <a href="/about">
+            <li>About us</li>
+        </a>
+        <a href="/approach">
+            <li>Approach</li>
+        </a>
+        <a href="/services">
+            <li>Services</li>
+        </a>
+        <a href="/industries">
+            <li>Industries</li>
+        </a>
+        <a href="/blogs">
+            <li>Blogs</li>
+        </a>
+        <a href="/faq">
+            <li>FAQs</li>
+        </a>
+
+        <div class="navbar-qoute-btn">
+            <li><a href="/contact"><button class="login-button">GET QUOTE</button></a></li>
+        </div>
+    </ul>
+    <div class="navbar-btn">
+        <ul>
+            <li><a href="/contact"><button class="login-button">GET QUOTE</button></a></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<!-- !navbar End -->
+
+
+
+<!-- !active link  -->
+
+
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var currentPageURL = window.location.pathname;
+        var navLinks = document.querySelectorAll(".nav-links a li");
+        navLinks.forEach(function (li) {
+            var linkURL = li.parentElement.getAttribute("href");
+            if (linkURL === currentPageURL) {
+                li.classList.add("active-navlink");
+            }
+        });
+    });
+</script>
+<!-- !active end -->
